@@ -1,4 +1,4 @@
 
 platform :ios
 
-pod 'AcknowledgementsBundle' , :git => 'https://github.com/tamastimar/AcknowledgementsBundle'
+pod 'AcknowledgementsBundle' , :git => 'https://github.com/tamastimar/AcknowledgementsBundle', :branch => 'symlink'
