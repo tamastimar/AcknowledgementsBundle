@@ -11,5 +11,5 @@ before_install:
     - pod repo update --silent
 
 script:
- #   - pod lib lint
+    - pod lib lint
     - cd Demo && pod update && xctool -workspace Demo.xcworkspace -scheme Demo -sdk iphonesimulator8.1 -arch i386
