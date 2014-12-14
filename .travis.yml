@@ -12,3 +12,4 @@ before_install:
 
 script:
     - pod lib lint
+    - cd Demo && pod update && xctool -workspace Demo.xcworkspace -scheme Demo -sdk iphonesimulator8.0 -arch i386
