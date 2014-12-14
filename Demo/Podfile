@@ -1,4 +1,4 @@
 
 platform :ios
 
-pod 'AcknowledgementsBundle'
+pod 'AcknowledgementsBundle' , :git => 'https://github.com/tamastimar/AcknowledgementsBundle'
